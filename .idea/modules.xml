@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Elso_program.iml" filepath="$PROJECT_DIR$/Elso_program.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pendroid.iml" filepath="$PROJECT_DIR$/pendroid.iml" />
     </modules>
   </component>
 </project>
+
