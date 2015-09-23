@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView tv1 = (TextView) findViewById(R.id.textView);
                 tv1.setText("Punished: " + a + " times!");
                 Toast.makeText(MainActivity.this, "AWW Yiss!!", Toast.LENGTH_SHORT).show();
+                tv1.setTextSize(a);
 
             }
 
