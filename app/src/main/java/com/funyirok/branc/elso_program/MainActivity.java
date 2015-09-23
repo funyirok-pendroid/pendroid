@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = (Button) findViewById(R.id.button);
-
+        Button exit = (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
 
@@ -31,9 +31,15 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-
-
+        exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View a){
+                finish();
+                System.exit(0);
+            }
+        });
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
